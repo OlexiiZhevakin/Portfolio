@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моє портфоліо</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__top">
+        <nav class="menu">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="Логотип сайта">
+          </a>
+          <button class="menu__btn">
+            <img src="images/menu.svg" alt="menu button">
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#about">
+                Про мене
+            </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#skills">
+                Навички
+            </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#services">
+                Послуги
+            </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#portfolio">
+                Портфоліо
+            </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#review">
+                Відгуки
+            </a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#contact">
+                Контакти
+            </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__content">
+        <h1 class="header__title">
+          Привіт, я Жевакін Олексій <span>frontend- розробник</span>
+        </h1>
+        <a class="header__link" href="#contact">
+          <svg width="37" height="23" viewBox="0 0 37 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M18.5 22.0455C17.8368 22.0455 17.1738 21.7923 16.6682 21.287L0.759084 5.37767C-0.252947 4.36564 -0.252947 2.7248 0.759084 1.71318C1.77071 0.701562 3.41121 0.701562 4.42332 1.71318L18.5 15.7906L32.5767 1.71368C33.5887 0.702054 35.229 0.702054 36.2406 1.71368C37.2531 2.7253 37.2531 4.36613 36.2406 5.37816L20.3317 21.2875C19.8259 21.7929 19.1628 22.0455 18.5 22.0455Z"
+              fill="white" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+   <main>
+     
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="title">
+          Про мене
+        </h2>
+        <div class="about__text">
+          <p>
+            Вітаю всіх на своєму сайті! Мене звуть Олексій, я з Києва. Займаюся фронтенд-розробкою понад рік. До розробки
+            займався нелюбимою справою, ходив на нелюбиму роботу, не міг зрозуміти, за що взятися, щоб справа приносила
+            задоволення і гроші, поки не наткнувся на один цікавий курс.
+          </p>
+          <p>
+            З того часу пройшов вогонь, воду та мідні труби. Навчання давалося по-різному: десь легше, десь складніше.
+            Щоденна робота над навичками та старанність, з якою я підходив до навчання, вже за кілька місяців
+            принесли плоди – я взяв перше замовлення на фрілансі. З відгуками клієнтів та прикладами робіт можна
+            ознайомитись
+            нижче.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+   <section class="skills" id="skills">
+     <div class="container">
+       <h2 class="title">
+         Навички
+       </h2>
+       <div class="skills__inner">
+         <img src="images/my-photo.jpg" alt="Фотографія Олексія, frontend-розробника">
+         <div class="skills__info">
+            <div class="skills__info-item">
+              Html
+              <span class="skills__info-item-gray">
+                <span class="skills__info-item-blue" style="max-width: 85%"></span>
+              </span>
+            </div>
+            <div class="skills__info-item">
+              css
+              <span class="skills__info-item-gray">
+                <span class="skills__info-item-blue" style="max-width: 80%"></span>
+              </span>
+            </div>
+            <div class="skills__info-item">
+              Js
+              <span class="skills__info-item-gray">
+                <span class="skills__info-item-blue" style="max-width: 61%"></span>
+              </span>
+            </div>
+         </div>
+       </div>
+     </div>
+   </section>
+   
+   <section class="services" id="services">
+     <div class="container">
+       <h2 class="title">
+         Послуги
+       </h2>
+       <div class="services__items">
+         <div class="services__item">
+           <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path
+               d="M37.2461 0.80931L35.2578 0.066386C35.0019 -0.049935 34.7498 -0.0133545 34.5047 0.17582C34.2587 0.365148 34.0927 0.649369 34.0073 1.02802L22.0487 57.4419C21.9634 57.8207 21.9901 58.1779 22.129 58.5125C22.2679 58.8477 22.476 59.0734 22.7543 59.1898L24.742 59.933C24.9985 60.0502 25.2497 60.0135 25.4955 59.824C25.7414 59.6338 25.9071 59.3505 25.9924 58.9724L37.9513 2.55765C38.0365 2.17899 38.01 1.82176 37.8709 1.48642C37.7319 1.15123 37.524 0.925478 37.2461 0.80931Z"
+               fill="#2352DE" />
+             <path
+               d="M19 10.743C19 10.3523 18.891 10.0062 18.6734 9.70586L17.041 7.45121C16.8234 7.15067 16.573 7 16.2901 7C16.0072 7 15.7567 7.15083 15.5392 7.45121L0.326563 28.4632C0.108626 28.7637 0 29.1096 0 29.5003C0 29.891 0.108969 30.2369 0.326563 30.5373L15.5391 51.5493C15.7566 51.8503 16.0066 52 16.29 52C16.5733 52 16.8234 51.8498 17.0408 51.5493L18.6733 49.2959C18.8909 48.9955 18.9999 48.6495 18.9999 48.2583C18.9999 47.868 18.8909 47.5221 18.6733 47.2218L5.84372 29.5003L18.6734 11.7801C18.8914 11.4798 19 11.1337 19 10.743Z"
+               fill="#2352DE" />
+             <path
+               d="M59.6736 28.4629L44.4597 7.45121C44.2422 7.15082 43.9916 7 43.7092 7C43.4258 7 43.1762 7.15082 42.9579 7.45121L41.326 9.70567C41.1085 10.0062 41 10.3516 41 10.7428C41 11.134 41.1084 11.4795 41.326 11.7799L54.1568 29.5004L41.326 47.2218C41.1085 47.5222 41 47.8682 41 48.2583C41 48.6497 41.1084 48.9955 41.326 49.2959L42.9579 51.5493C43.1762 51.8503 43.4259 52 43.7092 52C43.9917 52 44.2422 51.8498 44.4597 51.5493L59.6736 30.5377C59.8913 30.2373 60 29.8908 60 29.5001C60 29.1092 59.8913 28.7633 59.6736 28.4629Z"
+               fill="#2352DE" />
+           </svg>
+           <h3 class="services__item-title">
+             Верстка проектів
+           </h3>
+           <p class="services__item-text">
+             Зроблю якісну верстку вашого проекту за наданим макетом або прикладом
+           </p>
+         </div>
+         <div class="services__item">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M31.8827 60H28.1171C25.0716 60 22.5936 57.5222 22.5936 54.4766V53.2027C21.2988 52.789 20.0408 52.2668 18.8323 51.6414L17.9295 52.5442C15.7429 54.7335 12.2402 54.6693 10.1171 52.5434L7.4557 49.882C5.32887 47.7575 5.26769 44.2561 7.45641 42.0697L8.35851 41.1676C7.73309 39.9591 7.21102 38.7013 6.79723 37.4062H5.5234C2.47793 37.4062 0 34.9284 0 31.8829V28.1171C0 25.0716 2.47793 22.5938 5.52352 22.5938H6.79734C7.21113 21.2988 7.7332 20.0409 8.35863 18.8324L7.45582 17.9297C5.2684 15.7446 5.32875 12.2428 7.45652 10.1174L10.1182 7.45582C12.2462 5.32488 15.748 5.27168 17.9304 7.45652L18.8324 8.35851C20.0409 7.7332 21.2989 7.21102 22.5938 6.79723V5.5234C22.5938 2.47781 25.0716 0 28.1173 0H31.8829C34.9284 0 37.4062 2.47781 37.4062 5.5234V6.79734C38.7011 7.21102 39.9591 7.7332 41.1676 8.35863L42.0704 7.45582C44.257 5.26652 47.7596 5.33074 49.8827 7.45664L52.5442 10.118C54.671 12.2425 54.7322 15.7439 52.5435 17.9303L51.6414 18.8324C52.2668 20.0409 52.7889 21.2987 53.2027 22.5938H54.4765C57.5221 22.5938 60 25.0716 60 28.1171V31.8829C60 34.9284 57.5221 37.4062 54.4765 37.4062H53.2027C52.7889 38.7012 52.2668 39.9591 51.6414 41.1676L52.5442 42.0704C54.7316 44.2555 54.6712 47.7573 52.5435 49.8827L49.8818 52.5443C47.7538 54.6752 44.252 54.7284 42.0696 52.5436L41.1676 51.6416C39.9591 52.2669 38.7011 52.7891 37.4062 53.2029V54.4768C37.4062 57.5222 34.9284 60 31.8827 60ZM19.42 47.9496C21.0989 48.9425 22.9059 49.6927 24.7908 50.1791C25.567 50.3794 26.1094 51.0795 26.1094 51.8811V54.4766C26.1094 55.5837 27.0102 56.4844 28.1173 56.4844H31.8829C32.9899 56.4844 33.8907 55.5837 33.8907 54.4766V51.8811C33.8907 51.0795 34.4331 50.3794 35.2093 50.1791C37.0942 49.6927 38.9012 48.9425 40.5802 47.9496C41.271 47.5411 42.1505 47.6522 42.718 48.2197L44.5564 50.0583C45.3491 50.8519 46.622 50.8335 47.3952 50.0591L50.0585 47.3959C50.8298 46.6255 50.8556 45.3524 50.0592 44.557L48.22 42.7178C47.6525 42.1504 47.5414 41.2707 47.9498 40.58C48.9428 38.9012 49.6928 37.0942 50.1792 35.2092C50.3796 34.433 51.0797 33.8907 51.8812 33.8907H54.4766C55.5837 33.8907 56.4845 32.99 56.4845 31.883V28.1173C56.4845 27.0102 55.5837 26.1095 54.4766 26.1095H51.8812C51.0796 26.1095 50.3796 25.5671 50.1792 24.791C49.6928 22.9061 48.9427 21.099 47.9498 19.4202C47.5414 18.7295 47.6525 17.8499 48.22 17.2825L50.0585 15.4439C50.8533 14.6501 50.8325 13.3774 50.0592 12.605L47.3961 9.94195C46.6242 9.16898 45.3511 9.14637 44.5573 9.94125L42.7181 11.7805C42.1507 12.348 41.2709 12.4591 40.5803 12.0506C38.9013 11.0577 37.0943 10.3076 35.2095 9.82113C34.4332 9.62086 33.8909 8.92078 33.8909 8.1191V5.5234C33.8909 4.41633 32.99 3.51562 31.883 3.51562H28.1174C27.0103 3.51562 26.1095 4.41633 26.1095 5.5234V8.11887C26.1095 8.92055 25.5671 9.62063 24.7909 9.8209C22.9061 10.3073 21.099 11.0575 19.4201 12.0504C18.7291 12.4588 17.8496 12.3477 17.2822 11.7803L15.4438 9.94172C14.6511 9.14812 13.3781 9.16652 12.605 9.9409L9.94172 12.6041C9.17039 13.3745 9.14461 14.6475 9.94102 15.443L11.7803 17.2822C12.3477 17.8496 12.4588 18.7293 12.0504 19.42C11.0575 21.0988 10.3075 22.9058 9.82102 24.7908C9.62062 25.567 8.92055 26.1093 8.11898 26.1093H5.52352C4.41645 26.1094 3.51562 27.0101 3.51562 28.1171V31.8829C3.51562 32.9899 4.41645 33.8906 5.52352 33.8906H8.11887C8.92055 33.8906 9.62051 34.433 9.8209 35.2091C10.3073 37.0941 11.0575 38.9011 12.0503 40.5799C12.4587 41.2706 12.3476 42.1502 11.7802 42.7177L9.9416 44.5562C9.14684 45.35 9.16758 46.6227 9.9409 47.3951L12.604 50.0582C13.3759 50.8311 14.649 50.8538 15.4429 50.0589L17.282 48.2196C17.7001 47.8016 18.57 47.4469 19.42 47.9496Z"
+              fill="#2352DE" />
+            <path
+              d="M30 43.0547C22.8016 43.0547 16.9453 37.1984 16.9453 30C16.9453 22.8016 22.8016 16.9453 30 16.9453C37.1985 16.9453 43.0547 22.8016 43.0547 30C43.0547 37.1984 37.1985 43.0547 30 43.0547ZM30 20.4609C24.7401 20.4609 20.461 24.7402 20.461 30C20.461 35.2598 24.7402 39.5391 30 39.5391C35.2599 39.5391 39.5391 35.2598 39.5391 30C39.5391 24.7402 35.26 20.4609 30 20.4609Z"
+              fill="#2352DE" />
+          </svg>
+          <h3 class="services__item-title">
+            Посадка на CMS
+          </h3>
+          <p class="services__item-text">
+            Інтегрую ваш проект в одну з найпопулярніших CMS
+          </p>
+         </div>
+          <div class="services__item">
+            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M35.625 11.25H13.125C12.09 11.25 11.25 12.09 11.25 13.125C11.25 14.16 12.09 15 13.125 15H35.625C36.66 15 37.5 14.16 37.5 13.125C37.5 12.09 36.66 11.25 35.625 11.25Z"
+                fill="#2352DE" />
+              <path
+                d="M28.125 18.75H13.125C12.09 18.75 11.25 19.59 11.25 20.625C11.25 21.66 12.09 22.5 13.125 22.5H28.125C29.16 22.5 30 21.66 30 20.625C30 19.59 29.16 18.75 28.125 18.75Z"
+                fill="#2352DE" />
+              <path
+                d="M41.25 0H7.5C3.36375 0 0 3.36375 0 7.5V45C0 45.7275 0.42 46.3913 1.08 46.6987C1.33125 46.815 1.605 46.875 1.875 46.875C2.30625 46.875 2.73375 46.725 3.075 46.44L13.8038 37.5H41.25C45.3862 37.5 48.75 34.1362 48.75 30V7.5C48.75 3.36375 45.3862 0 41.25 0ZM45 30C45 32.0662 43.32 33.75 41.25 33.75H13.125C12.6862 33.75 12.2625 33.9038 11.925 34.185L3.75 40.9987V7.5C3.75 5.43375 5.43 3.75 7.5 3.75H41.25C43.32 3.75 45 5.43375 45 7.5V30Z"
+                fill="#2352DE" />
+              <path
+                d="M52.5 15C51.465 15 50.625 15.84 50.625 16.875C50.625 17.91 51.465 18.75 52.5 18.75C54.57 18.75 56.25 20.4338 56.25 22.5V54.2212L49.92 49.1588C49.59 48.8963 49.1738 48.75 48.75 48.75H22.5C20.43 48.75 18.75 47.0662 18.75 45V43.125C18.75 42.09 17.91 41.25 16.875 41.25C15.84 41.25 15 42.09 15 43.125V45C15 49.1362 18.3637 52.5 22.5 52.5H48.09L56.9513 59.5912C57.2925 59.8612 57.7088 60 58.125 60C58.3988 60 58.6763 59.94 58.9388 59.8162C59.5875 59.5013 60 58.845 60 58.125V22.5C60 18.3637 56.6362 15 52.5 15Z"
+                fill="#2352DE" />
+            </svg>
+            <h3 class="services__item-title">
+              Підтримка сайту
+            </h3>
+            <p class="services__item-text">
+              Гарантую підтримку вашого сайту протягом 30 днів після здачі проекту
+            </p>
+          </div>
+       </div>
+     </div>
+   </section>
+   
+   <section class="portfolio" id="portfolio">
+     <div class="container">
+       <h2 class="title centre__title">
+         Мої роботи
+       </h2>
+       <div class="portfolio__filter-btn">
+         <button class="portfolio__btn" data-filter="all">
+           Всі роботи
+         </button>
+         <button class="portfolio__btn" data-filter=".category-a">
+          Лендінги
+         </button>
+         <button class="portfolio__btn" data-filter=".category-b">
+          Корпоративні
+         </button>
+         <button class="portfolio__btn" data-filter=".category-c">
+          E-commerce
+         </button>
+       </div>
+       <div class="portfolio__content">
+         <div class="portfolio__item mix category-a">
+           <img src="images/portfolio/1.jpg" alt="Картинка - прикад роботи">
+         </div>
+         <div class="portfolio__item mix category-a">
+           <img src="images/portfolio/2.jpg" alt="Картинка - прикад роботи">
+         </div>
+         <div class="portfolio__item mix category-b">
+           <img src="images/portfolio/3.jpg" alt="Картинка - прикад роботи">
+         </div>
+         <div class="portfolio__item mix category-b">
+           <img src="images/portfolio/4.jpg" alt="Картинка - прикад роботи">
+         </div>
+         <div class="portfolio__item mix category-c">
+           <img src="images/portfolio/5.jpg" alt="Картинка - прикад роботи">
+         </div>
+         <div class="portfolio__item mix category-c">
+           <img src="images/portfolio/6.jpg" alt="Картинка - прикад роботи">
+         </div>
+       </div>
+       <div class="portfolio__link">
+         <a class="portfolio__link-more" href="#">Побачити більше</a>
+       </div>
+     </div>
+   </section>
+   
+   <section class="review" id="review">
+     <div class="container">
+       <h2 class="title centre__title">
+         Відгуки клієнтів
+       </h2>
+       <div class="review__inner">
+          <div class="review__info">
+            <img class="review__img" src="images/client.jpg" alt="Фотогравія кліента Олексія frontend-розробника">
+            <blockquote class="blockquote">
+              <span class="blockquote__author">
+                Марк Цукерберг
+              </span>
+              Фантастика! Я цілком задоволений
+              роботою цього спеціаліста.
+              Швидко та якісно. Рекомендую!
+            </blockquote>
+          </div>
+          <div class="review__video">
+            <a data-fancybox class="review__video-link" href="https://www.youtube.com/watch?v=z2X2HaTvkl8">
+              <img src="images/play.svg" alt="play button">
+            </a>
+          </div>
+       </div>
+     </div>
+   </section>
+   
+   <div class="numbers">
+     <div class="container">
+       <div class="numbers__items">
+         <div class="numbers__item">
+           <img class="numbers__item-img" src="images/works.svg" alt="work images">
+           Виконаних робіт
+           <span>56</span>
+         </div>
+         <div class="numbers__item">
+           <img class="numbers__item-img" src="images/clients.svg" alt="work images">
+           Задоволених клієнтів
+           <span>23</span>
+         </div>
+         <div class="numbers__item">
+           <img class="numbers__item-img" src="images/coffee.svg" alt="work images">
+           Випито кави
+           <span>477</span>
+         </div>
+         <div class="numbers__item">
+           <img class="numbers__item-img" src="images/review.svg" alt="work images">
+           Усього відгуків
+           <span>48</span>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+  </main>
+
+
+
+
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <h2 class="title">
+        Контакти
+      </h2>
+      <div class="footer__inner">
+        <div class="footer__info">
+          <p class="footer__info-text">
+            Зв'язатися зі мною можна, скориставшись контактною формою, або за номером телефону, email, в соцмережах:
+          </p>
+          <div class="footer__contact">
+            <a href="tel:+380950728837">095 072 88 37</a>
+            <a href="mailto:olexiy.zhevakin@gmail.com">olexiy.zhevakin@gmail.com</a>
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-link" href="https://www.instagram.com/olexiy.zhevakin/" target="_blank">
+              <img src="images/instagram.svg" alt="Instagram logo">
+            </a>
+            <a class="footer__social-link" href="https://www.facebook.com/profile.php?id=100067457836363" target="_blank">
+              <img src="images/facebook.svg" alt="Facebook logo">
+            </a>
+            <a class="footer__social-link" href="https://telegram.me/olexiy_zhevakin" target="_blank">
+              <img src="images/telegram.svg" alt="Telegram">
+            </a>
+          </div>
+        </div>
+        <form class="footer__form">
+         
+         <input class="footer__input" type="text" placeholder="Ваше ім'я">
+         
+         <input class="footer__input" type="tel" placeholder="Номер телефона">
+          
+         <textarea class="footer__textarea" placeholder="Текст повідомлення"></textarea>
+
+         <button class="footer__btn" type="submit">Надіслати</button>
+         
+        </form>
+      </div>
+      
+    </div>
+    <div class="footer__logo">
+      <a class="footer__logo-link" href="#">
+        <img class="logo__img" src="images/logo.svg" alt="Логотип сайта">
+      </a>
+    </div>
+  </footer> 
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/mixitup.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
